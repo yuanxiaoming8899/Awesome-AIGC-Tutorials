@@ -1,258 +1,425 @@
-# Awesome AIGC Tutorials 
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/luban-agi/awesome-aigc-tutorials) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
-![](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
-[![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-AIGC-Tutorials?style=social)](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
-
-English | [中文版](README_zh.md)
-
-
-Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields. Discover in-depth insights and knowledge catered for both beginners and advanced AI enthusiasts.
-
-## 🔔 Recent Updates
-
-- [2024-02-18] - 🌈 Added new course: [CSCI-GA.3033-102 Special Topic - Learning with Large Language and Vision Models](https://www.sainingxie.com/llvm-fall23/) in Multimodal.
-- [2024-02-14] - 💬 Added new course: [CS11-711 Advanced Natural Language Processing](https://phontron.com/class/anlp2024/) in Large Language Models.
-- [2024-02-14] - 💬 Added new seminar: [AI-Systems (LLM Edition) 294-162](https://learning-systems.notion.site/learning-systems/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb) in AI System.
-
-## 🌱 How to Contribute
-
-We warmly welcome contributions from everyone, whether you've found a typo, a bug, have a suggestion, or want to share a resource related to AIGC. For detailed guidelines on how to contribute, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## 📜 Content
-- [👋 Introduction](#-introduction)
-- [💬 Large Language Models](#-large-language-models)
-  - [💡 Prompt Engineering](#-prompt-engineering)
-  - [🔧 LLMs in Practice](#-llms-in-practice)
-  - [🔬 Theory of LLMs](#-theory-of-llms)
-- [🎨 AI Painting](#-ai-painting)
-  - [🧑‍🎨 Art Fundamentals and AI Painting Techniques](#-art-fundamentals-and-ai-painting-techniques)
-  - [🌊 Stable Diffusion Principles and Applications](#-stable-diffusion-principles-and-applications)
-- [🔊 AI Audio](#-ai-audio)
-- [🌈 Multimodal](#-multimodal)
-- [🧠 Deep Learning](#-deep-learning)
-- [💻 AI System](#-ai-system)
-- [🗂 Miscellaneous](#-miscellaneous)
-  - [✨ Star History](#-star-history)
-  - [🤝 Friendship Links](#-friendship-links)
-
-## 👋 Introduction
-- [AI for Everyone - Andrew Ng](https://www.deeplearning.ai/courses/ai-for-everyone/)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  - "AI for Everyone" is a beginner's guide to understanding AI's practical applications, its limitations, and its societal impact, ideal for business professionals and leaders alike.
-- [Practical AI for Teachers and Students - Wharton School](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Wharton Interactive's crash course delves into the mechanics and impacts of LLMs, spotlighting models like OpenAI's ChatGPT4, Microsoft's Bing in Creative Mode, and Google's Bard. 
-- [Artificial Intelligence for Beginners - Microsoft](https://microsoft.github.io/AI-For-Beginners/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - This 12-week Microsoft curriculum dives deep into AI methodologies, spanning symbolic AI to neural networks, while highlighting TensorFlow and PyTorch frameworks, yet omits business applications, classic machine learning, and certain cloud-specific topics.
-- [Generative AI learning path - Google Cloud](https://www.cloudskillsboost.google/journeys/118)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This learning path offers a comprehensive journey from the basics of Large Language Models to deploying generative AI solutions on Google Cloud. 
-
-## 💬 Large Language Models
-
-### 💡 Prompt Engineering
-- [ChatGPT Prompt Engineering for Developers - DeepLearning.AI](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - Co-taught by OpenAI and DeepLearning.AI, this course guides learners in leveraging Large Language Models for tasks like summarizing and text transformation, with hands-on experiences in a Jupyter notebook environment.
-- [Building Systems with the ChatGPT API - DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - Led by experts from OpenAI and DeepLearning.AI, this course teaches automating workflows using language models, creating prompt chains, integrating Python, and designing chatbots, all through hands-on Jupyter notebook exercises with just basic Python knowledge required.
-- [LangChain for LLM Application Development - DeepLearning.AI](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - Guided by the creator of LangChain and Andrew Ng, this course dives into advanced LLM techniques like chaining operations and using models as reasoning agents, empowering learners to craft robust applications quickly with foundational Python knowledge.
-- [LangChain: Chat with Your Data - DeepLearning.AI](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - Delve into Retrieval Augmented Generation and chatbot creation based on document content with LangChain, covering data loading, splitting, embeddings, advanced retrieval techniques, and interactive chatbot building, designed for Python-savvy developers keen on harnessing Large Language Models.
-- [Prompt Engineering for ChatGPT - Vanderbilt University](https://www.coursera.org/learn/prompt-engineering?utm_medium=sem&utm_source=gg&utm_campaign=B2C_EMEA_prompt-engineering_vanderbilt_FTCOF_learn_country-GB-country-UK&campaignid=20462816306&adgroupid=157715342052&device=c&keyword=prompt%20engineering%20coursera&matchtype=b&network=g&devicemodel=&adposition=&creativeid=670151312123&hide_mobile_promo&gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVg8RCaUF0lwFyVnMuP7T7bHoH0jST0XXhQ3S1vmDxtZc8O1WlJ8FXQaAtG-EALw_wcB)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Unlock the potential of Large Language Models like ChatGPT by mastering prompt engineering, transitioning from basic to sophisticated prompts, enabling diverse applications ranging from writing to simulation, suitable for anyone with basic computer skills.
-- [Prompt Engineering Guide - DAIR.AI](https://www.promptingguide.ai/)
-  ![](https://img.shields.io/badge/Level-Easy-green) 
-  - This guide introduces Prompt Engineering, a discipline that optimizes interactions with Large Language Models, offering extensive resources, research, and tools.
-- [Learn Prompting](https://learnprompting.org/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - Dive into a beginner-friendly guide on Generative AI and Prompt Engineering, offering insights from industry giants, and explore how these tools revolutionize content creation and the future of work.
-- [LangChain AI Handbook - James Briggs and Francisco Ingham](https://www.pinecone.io/learn/series/langchain/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Book-%2391672c)
-  - Explore the transformative world of LangChain, mastering core components, crafting effective prompts, and harnessing advanced AI agents, conversational memories, and custom tools for cutting-edge applications. 
-
-### 🔧 LLMs in Practice
-- [LLM Bootcamp - The Full Stack](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Delve deep into prompt engineering, LLM operations, user experience design for language interfaces, augmented language model techniques, foundational LLM insights, hands-on projects, and the future of LLMs, complemented by expert talks from industry leaders on training and agent design.
-- [Finetuning Large Language Models - DeepLearning.AI](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - Learn the techniques of finetuning large language models (LLMs) with Sharon Zhou, gaining expertise in data preparation, training, and updating neural net weights for improved results tailored to your data.
-- [CS25: Transformers United V3 - Stanford University](https://web.stanford.edu/class/cs25/index.html)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course delves into the transformative role of Transformers in deep learning, particularly their impact on the advancement of language models like ChatGPT and GPT-4.
-- [Learn the fundamentals of generative AI for real-world applications - AWS x DeepLearning.AI](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course, in partnership with AWS, offers deep insights into generative AI and Large Language Models (LLMs). Participants will learn the mechanics, optimization, and real-world applications of LLMs from AWS AI experts. Suitable for professionals in AI and machine learning, with a Coursera certificate upon completion. Basic Python and machine learning knowledge recommended.
-
-### 🔬 Theory of LLMs
-- [CS324 - Advances in Foundation Models - Stanford University](https://stanford-cs324.github.io/winter2023/)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  - CS 324 delves into foundation models like GPT-3 and DALL-E, covering their principles, systems, ethics, and application, and culminates in a hands-on research project or application design.
-- [CS11-711 Advanced Natural Language Processing - Carnegie Mellon University](https://phontron.com/class/anlp2024/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - CMU's Advanced NLP course explores modern neural methods for understanding and innovating in natural language processing.
-- [CS 601.471/671 NLP: Self-supervised Models - Johns Hopkins University](https://self-supervised.cs.jhu.edu/sp2024/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - This course offers an in-depth exploration of self-supervised learning techniques for NLP, training students to design and implement neural network models using PyTorch, with a focus on various language model architectures.
-- [11-667: Large Language Models Methods and Applications - Carnegie Mellon University](https://cmu-llms.org/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - This graduate course offers a comprehensive overview of large language models (LLMs), covering basics, emergent capabilities, applications, scaling techniques, deployment concerns, and future challenges, equipping students for research and applications in the AI era.
-- [CS224N: Natural Language Processing with Deep Learning - Stanford University](https://web.stanford.edu/class/cs224n/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course provides a comprehensive insight into Deep Learning for NLP using PyTorch, emphasizing end-to-end neural models, eliminating the need for task-specific feature engineering, and equipping students with the skills to craft their own neural network solutions.
-- [TinyML and Efficient Deep Learning Computing - Massachusetts Institute of Technology](https://hanlab.mit.edu/courses/2023-fall-65940?schedule)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course explores efficient AI computing techniques for deep learning on constrained devices, covering model compression, pruning, quantization, architecture search, distributed training, and quantum machine learning, with hands-on deployment of large models like LLaMA 2 on laptops.
-- [Speech and Language Processing - Dan Jurafsky and James H. Martin](https://web.stanford.edu/~jurafsky/slp3/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Book-%2391672c)
-  - Authored by leading experts in the field, this authoritative text provides an in-depth exploration of the algorithms and mathematical models for modern natural language processing and speech recognition, and is continually updated to reflect the rapid advancements in the NLP domain.
-- [COS 597G (Fall 2022): Understanding Large Language Models - Princeton University](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
-  ![](https://img.shields.io/badge/Level-Hard-red)
-  - An advanced exploration into the transformative realm of LLMs, discussing state-of-the-art models, their profound capabilities, and associated challenges, with an emphasis on in-depth research, ethical considerations, and hands-on project experience, tailored for seasoned students versed in machine learning and deep NLP frameworks.
-
-## 🎨 AI Painting
-
-### 🧑‍🎨 Art Fundamentals and AI Painting Techniques
-- [Lecture Series: An interesting topic every week on the fundamentals of art - Niji Academy](https://www.niji.academy/work/lecture)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  - Niji Academy blends art fundamentals with AI, elevating painting skills and speeding up art learning.
- 
-### 🌊 Stable Diffusion Principles and Applications
-
-- [How Diffusion Models Work - DeepLearning.AI](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow) ![](https://img.shields.io/badge/Video-blue)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - Master generative AI in 'How Diffusion Models Work', an intermediate course by Sharon Zhou, where you'll craft diffusion models from scratch, enriched with hands-on coding and labs, ideal for those proficient in Python, Tensorflow, or Pytorch.
-- [Hugging Face Diffusion Models Course](https://github.com/huggingface/diffusion-models-class)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Notebook-orange)
-  - The Hugging Face course offers an in-depth look into diffusion models, guiding participants through media generation, hands-on training, and customization using the Diffusers library, with a foundational understanding of Python and Deep Learning essential for the best experience.
-- [Practical Deep Learning for Coders part 2: Deep Learning Foundations to Stable Diffusion - fast.ai](https://course.fast.ai/Lessons/part2.html)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course offers an in-depth exploration of Stable Diffusion algorithms, covering advanced deep learning techniques and hands-on projects using PyTorch, empowering students with expertise in cutting-edge diffusion models. 
-
-## 🔊 AI Audio
-- [Hugging Face Audio Course](https://huggingface.co/learn/audio-course/chapter0/introduction)
-  ![](https://img.shields.io/badge/Level-Medium-yellow) 
-  - The Hugging Face Audio course teaches how to use transformers for various audio tasks, from speech recognition to generating speech from text, combining theory with hands-on exercises for learners familiar with deep learning.
-- [CS224S: Spoken Language Processing - Stanford University](http://web.stanford.edu/class/cs224s/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - An immersive course on spoken language technology, covering dialog systems, deep learning in speech recognition and synthesis, with hands-on projects using modern tools like PyTorch, Alexa Skills Kit, and SpeechBrain, culminating in student-driven research or system design projects. 
- 
-## 🌈 Multimodal
-- [CSCI-GA.3033-102 Special Topic - Learning with Large Language and Vision Models](https://www.sainingxie.com/llvm-fall23/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - Graduate course on the impact of large language and vision models, covering multimodal and generative AI, and preparing students for AI research.
-- [Tutorial on MultiModal Machine Learning (ICML 2023) - Carnegie Mellon University](https://cmu-multicomp-lab.github.io/mmml-tutorial/icml2023/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course offers an in-depth look at Multimodal Machine Learning, drawing insights from the latest edition of a survey paper and CMU's academic teachings, addressing its unique challenges and future directions. 
-- [11-777: MultiModal Machine Learning (Fall 2022) - Carnegie Mellon University](https://cmu-multicomp-lab.github.io/mmml-course/fall2022/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - This course delves into Multimodal Machine Learning (MMML), covering its mathematical foundations, state-of-the-art probabilistic models, and key challenges, while highlighting recent applications and techniques such as multimodal transformers and neuro-symbolic models. 
-- [11-877: Advanced Topics in MultiModal Machine Learning (Fall 2022) - Carnegie Mellon University](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/)
-  ![](https://img.shields.io/badge/Level-Hard-red)
-  - This course explores Multimodal Machine Learning (MMML), covering technical challenges and recent achievements. It emphasizes critical thinking and future research trends, with weekly updates, discussion probes, and research highlights on the course website. 
-
-## 🧠 Deep Learning
-- [Neural Networks/Deep Learning - StatQuest](https://www.youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Discover the intricacies of Neural Networks in this highly popular YouTube playlist, seamlessly blending informative graphics with expert teachings, captivating countless students from basics to advanced image classification with Convolutional Neural Networks.
-- [Neural Networks - 3Blue1Brown](https://www.3blue1brown.com/topics/neural-networks)
-  ![](https://img.shields.io/badge/Level-Easy-green)
-  ![](https://img.shields.io/badge/Video-blue)
-  - 3Blue1Brown unveils the magic of neural networks through vivid animations and clear explanations, diving deep into hand-written digit recognition, the nuances of gradient descent, and the intricate calculus behind backpropagation. 
-- [Neural Networks: Zero to Hero - Andrej Karpathy](https://karpathy.ai/zero-to-hero.html)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Andrej Karpathy's course guides students from the foundational backpropagation to advanced neural networks like GPT, emphasizing language models as a versatile gateway to mastering deep learning, with prerequisites in Python programming and basic math. 
-- [Practical Deep Learning for Coders - fast.ai](https://course.fast.ai/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Practical Deep Learning for Coders 2022 is a free course offering hands-on experience in building, training, and deploying deep learning models across various domains using tools like PyTorch and fastai, suitable for those with coding knowledge and without the need for advanced math. 
-- [Deep Learning Specialization - Andrew Ng](https://www.deeplearning.ai/courses/deep-learning-specialization/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Andrew Ng's Deep Learning Specialization is a top-rated, self-paced program on Coursera with over 1 million learners, offering clear modules and practical techniques in AI, supported by a vast community and breaking down the latest in machine learning into understandable content.
-- [6.S191: Introduction to Deep Learning - Massachusetts Institute of Technology](http://introtodeeplearning.com/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - MIT's intensive bootcamp on deep learning fundamentals, covering applications from computer vision to biology, with hands-on TensorFlow practice and a culminating project competition. Basic calculus and linear algebra knowledge required; Python experience beneficial. 
-- [CS25: Transformers United V2 - Stanford University](https://web.stanford.edu/class/cs25/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Explore the transformative power of transformers in deep learning across diverse domains, from NLP to biology, in a seminar featuring expert lectures, breakthrough discussions, and insights from leading researchers, aiming to foster understanding and cross-collaborative innovation.
-- [Deep Learning Lecture Series 2020 - DeepMind x University College London](https://www.deepmind.com/learning-resources/deep-learning-lecture-series-2020)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - DeepMind presents a 12-lecture series on Deep Learning, diving from foundational topics to advanced techniques, encompassing areas from object recognition to responsible AI innovation, all delivered by leading research experts.
-- [Reinforcement Learning Lecture Series 2021 - DeepMind x University College London](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
-  ![](https://img.shields.io/badge/Level-Hard-red)
-  ![](https://img.shields.io/badge/Video-blue)
-  - DeepMind and UCL present a comprehensive 13-lecture series on modern reinforcement learning, from foundational concepts to advanced deep RL techniques, led by expert researchers Hado van Hasselt, Diana Borsa, and Matteo Hessel.
-  
-## 💻 AI System
-- [AI-Sys-Sp22 Machine Learning Systems - University of California, Berkeley](https://ucbrise.github.io/cs294-ai-sys-sp22/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - Delve into the symbiotic relationship between cutting-edge AI applications and the systems supporting them, exploring advancements in hardware, software, and AI-driven optimization techniques, through lectures, discussions, and collaborative hands-on projects.
-- [Deep Learning Systems: Algorithms and Implementation - Tianqi Chen, Zico Kolter](https://dlsyscourse.org/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  ![](https://img.shields.io/badge/Video-blue)
-  - Explore the foundations of deep learning systems by constructing a complete library, understanding every layer from model design to efficient algorithms, utilizing Python and C/C++. 
-- [CS 329S: Machine Learning Systems Design - Stanford University](https://stanford-cs329s.github.io/)
-  ![](https://img.shields.io/badge/Level-Medium-yellow)
-  - Master the intricacies of designing robust, scalable, and deployable machine learning systems, focusing on stakeholders, evolving requirements, and holistic system design, while addressing critical issues like privacy, fairness, and security.
-- [AI-Systems (LLM Edition) 294-162 - University of California, Berkeley](https://learning-systems.notion.site/learning-systems/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb)
-  ![](https://img.shields.io/badge/Level-Hard-red)
-  - This course delves into the nexus of hardware/software advancements and generative AI, emphasizing how these innovations propel the scaling and capabilities of AI models.
-- [15-849: Machine Learning Systems - Carnegie Mellon University](https://www.cs.cmu.edu/~zhihaoj2/15-849/)
-  ![](https://img.shields.io/badge/Level-Hard-red)
-  - Dive into the architecture of modern ML systems, unraveling the journey from high-level model design to low-level kernel execution on heterogeneous hardware, while uncovering the principles and challenges of next-gen ML applications and platforms. 
-- [Computer Science 598D - Systems and Machine Learning - Princeton University](https://www.cs.princeton.edu/courses/archive/spring21/cos598D/general.html)
-  ![](https://img.shields.io/badge/Level-Hard-red)
-  - Explore the synergy between systems and machine learning by dissecting recent research on efficient ML hardware/software and applying ML to system design, culminating in hands-on projects and deep discussions for graduate students.
-
-## 🗂 Miscellaneous
-
-### ✨ Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-AIGC-Tutorials&type=Date)](https://star-history.com/#luban-agi/Awesome-AIGC-Tutorials&Date)
-
-### 🤝 Friendship Links
-- [WayToAGI](http://waytoagi.com/)
-  - WaytoAGI.com is the most comprehensive Chinese resource hub for AIGC, guiding users on an optimized learning journey to understand and harness the power of AI.
-- [Codefuse-ChatBot](https://github.com/codefuse-ai/codefuse-chatbot)
-  - Codefuse-ChatBot is an open-source AI smart assistant designed to support the software development lifecycle with conversational access to tools, knowledge, and platform integration.
-- [Codefuse DevOps Eval](https://github.com/codefuse-ai/codefuse-devops-eval)
-  - DevOps-Eval is a GitHub repository offering a specialized suite for evaluating and improving foundation models in the DevOps sector, including a rich set of AIOps exercises.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的 AIGC 教程</font></font></h1><a id="user-content-awesome-aigc-tutorials" class="anchor" aria-label="永久链接：很棒的 AIGC 教程" href="#awesome-aigc-tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/luban-agi/awesome-aigc-tutorials"><img src="https://camo.githubusercontent.com/50cf39121274b3db22bf1bd72cbe25af9078e037441cb5b5bdef1cc9dc5eb2f7/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="惊人的" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width: 100%;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://camo.githubusercontent.com/b59ba4ef5c86bc79e9e3e9039f1b96a4db59e7f96a7ba04abfc6548ae88c461b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d677265656e2e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-MIT-green.svg" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0e9a0337d61be3a69e762ff55514d21ace580b1d6a9ec7f4bd0393bd13a512e3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6c7562616e2d6167692f417765736f6d652d414947432d5475746f7269616c733f636f6c6f723d677265656e"><img src="https://camo.githubusercontent.com/0e9a0337d61be3a69e762ff55514d21ace580b1d6a9ec7f4bd0393bd13a512e3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6c7562616e2d6167692f417765736f6d652d414947432d5475746f7269616c733f636f6c6f723d677265656e" alt="" data-canonical-src="https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green" style="max-width: 100%;"></a>
+<a href="https://github.com/luban-agi/Awesome-AIGC-Tutorials"><img src="https://camo.githubusercontent.com/c14ed4fe389039717b0f9b2cc90f4ba25e4d7654b2d73749a614b10b121fee01/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6c7562616e2d6167692f417765736f6d652d414947432d5475746f7269616c733f7374796c653d736f6369616c" alt="GitHub 存储库星星" data-canonical-src="https://img.shields.io/github/stars/luban-agi/Awesome-AIGC-Tutorials?style=social" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">English |</font></font><a href="/luban-agi/Awesome-AIGC-Tutorials/blob/main/README_zh.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中文版</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Awesome AIGC 教程包含一系列精选的教程和资源，涵盖大型语言模型、AI 绘画和相关领域。探索适合初学者和高级人工智能爱好者的深入见解和知识。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔔 最近更新</font></font></h2><a id="user-content--recent-updates" class="anchor" aria-label="永久链接：🔔 最近更新" href="#-recent-updates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024-02-18] - 🌈 添加了新课程：</font></font><a href="https://www.sainingxie.com/llvm-fall23/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSCI-GA.3033-102 专题 -</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多模态中的大型语言和视觉模型学习。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024-02-14] - 💬 新增课程：</font></font><a href="https://phontron.com/class/anlp2024/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS11-711 大语言模型中的高级自然语言处理</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024-02-14] - 💬 在 AI System 中添加了新的研讨会：</font></font><a href="https://learning-systems.notion.site/learning-systems/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AI-Systems (LLM Edition) 294-162</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌱 如何贡献</font></font></h2><a id="user-content--how-to-contribute" class="anchor" aria-label="永久链接：🌱 如何贡献" href="#-how-to-contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们热烈欢迎大家的贡献，无论您是发现拼写错误、错误、有建议，还是想要分享与 AIGC 相关的资源。有关如何贡献的详细指南，请参阅我们的</font></font><a href="/luban-agi/Awesome-AIGC-Tutorials/blob/main/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📜 内容</font></font></h2><a id="user-content--content" class="anchor" aria-label="永久链接：📜内容" href="#-content"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="#-introduction"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👋简介</font></font></a></li>
+<li><a href="#-large-language-models"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬 大型语言模型</font></font></a>
+<ul dir="auto">
+<li><a href="#-prompt-engineering"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💡 快速工程</font></font></a></li>
+<li><a href="#-llms-in-practice"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔧 法学硕士实践</font></font></a></li>
+<li><a href="#-theory-of-llms"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔬 LLM 理论</font></font></a></li>
+</ul>
+</li>
+<li><a href="#-ai-painting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎨 人工智能绘画</font></font></a>
+<ul dir="auto">
+<li><a href="#-art-fundamentals-and-ai-painting-techniques"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧑&zwj;🎨 艺术基础与AI绘画技巧</font></font></a></li>
+<li><a href="#-stable-diffusion-principles-and-applications"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌊 稳定扩散原理及应用</font></font></a></li>
+</ul>
+</li>
+<li><a href="#-ai-audio"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔊 人工智能音频</font></font></a></li>
+<li><a href="#-multimodal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌈 多式联运</font></font></a></li>
+<li><a href="#-deep-learning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧠深度学习</font></font></a></li>
+<li><a href="#-ai-system"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 人工智能系统</font></font></a></li>
+<li><a href="#-miscellaneous"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🗂 杂项</font></font></a>
+<ul dir="auto">
+<li><a href="#-star-history"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✨ 明星历史</font></font></a></li>
+<li><a href="#-friendship-links"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤝 友情链接</font></font></a></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👋简介</font></font></h2><a id="user-content--introduction" class="anchor" aria-label="永久链接：👋简介" href="#-introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.deeplearning.ai/courses/ai-for-everyone/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人工智能为每个人 - 吴恩达</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">《适合所有人的人工智能》是一本了解人工智能实际应用、局限性及其社会影响的初学者指南，非常适合商业专业人士和领导者。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向教师和学生的实用人工智能 - 沃顿商学院</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">沃顿互动的速成课程深入探讨了法学硕士的机制和影响，重点介绍了 OpenAI 的 ChatGPT4、微软的 Bing 创意模式和谷歌的 Bard 等模型。</font></font></li>
+</ul>
+</li>
+<li><a href="https://microsoft.github.io/AI-For-Beginners/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人工智能初学者 - 微软</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个为期 12 周的 Microsoft 课程深入探讨 AI 方法，涵盖符号 AI 到神经网络，同时重点介绍 TensorFlow 和 PyTorch 框架，但忽略了业务应用程序、经典机器学习和某些特定于云的主题。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.cloudskillsboost.google/journeys/118" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成式 AI 学习路径 - Google Cloud</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此学习路径提供了从大型语言模型基础知识到在 Google Cloud 上部署生成式 AI 解决方案的全面旅程。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬 大型语言模型</font></font></h2><a id="user-content--large-language-models" class="anchor" aria-label="永久链接：💬 大型语言模型" href="#-large-language-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💡 快速工程</font></font></h3><a id="user-content--prompt-engineering" class="anchor" aria-label="永久链接：💡 快速工程" href="#-prompt-engineering"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT 为开发人员提供提示工程 - DeepLearning.AI</font></font></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程由 OpenAI 和 DeepLearning.AI 共同教授，指导学习者利用大型语言模型完成摘要和文本转换等任务，并在 Jupyter Notebook 环境中获得实践经验。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 ChatGPT API 构建系统 - DeepLearning.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程由 OpenAI 和 DeepLearning.AI 的专家主导，教授使用语言模型实现工作流程自动化、创建提示链、集成 Python 和设计聊天机器人，所有这些都通过 Jupyter Notebook 的实践练习进行，只需要基本的 Python 知识。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LangChain 用于法学硕士应用程序开发 - DeepLearning.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程在 LangChain 的创建者和 Andrew Ng 的指导下，深入探讨高级 LLM 技术，例如链操作和使用模型作为推理代理，使学习者能够利用基础 Python 知识快速构建强大的应用程序。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LangChain：与您的数据对话 - DeepLearning.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 LangChain 深入研究基于文档内容的检索增强生成和聊天机器人创建，涵盖数据加载、拆分、嵌入、高级检索技术和交互式聊天机器人构建，专为热衷于利用大型语言模型的精通 Python 的开发人员而设计。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/learn/prompt-engineering?utm_medium=sem&amp;utm_source=gg&amp;utm_campaign=B2C_EMEA_prompt-engineering_vanderbilt_FTCOF_learn_country-GB-country-UK&amp;campaignid=20462816306&amp;adgroupid=157715342052&amp;device=c&amp;keyword=prompt%20engineering%20coursera&amp;matchtype=b&amp;network=g&amp;devicemodel=&amp;adposition=&amp;creativeid=670151312123&amp;hide_mobile_promo&amp;gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVg8RCaUF0lwFyVnMuP7T7bHoH0jST0XXhQ3S1vmDxtZc8O1WlJ8FXQaAtG-EALw_wcB" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT 的即时工程 - 范德比尔特大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过掌握提示工程、从基本提示过渡到复杂提示、实现从编写到模拟的各种应用程序，释放大型语言模型（如 ChatGPT）的潜力，适合任何具有基本计算机技能的人。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.promptingguide.ai/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速工程指南 - DAIR.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本指南介绍了即时工程，这是一门优化与大型语言模型交互的学科，提供广泛的资源、研究和工具。</font></font></li>
+</ul>
+</li>
+<li><a href="https://learnprompting.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学习提示</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深入研究适合初学者的生成式人工智能和即时工程指南，提供行业巨头的见解，并探索这些工具如何彻底改变内容创建和未来的工作。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.pinecone.io/learn/series/langchain/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浪链人工智能手册 - James Briggs 和 Francisco Ingham</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1d426c8b086bacc93781024891aeefc009e3f499f8c5cb7668c7bfb668c464ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f6b2d253233393136373263"><img src="https://camo.githubusercontent.com/1d426c8b086bacc93781024891aeefc009e3f499f8c5cb7668c7bfb668c464ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f6b2d253233393136373263" alt="" data-canonical-src="https://img.shields.io/badge/Book-%2391672c" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">探索浪链的变革世界，掌握核心组件，制作有效的提示，并利用先进的人工智能代理、对话记忆和定制工具来实现尖端应用。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔧 法学硕士实践</font></font></h3><a id="user-content--llms-in-practice" class="anchor" aria-label="永久链接：🔧 法学硕士实践" href="#-llms-in-practice"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLM 训练营 - 全栈</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深入研究即时工程、法学硕士操作、语言界面的用户体验设计、增强语言模型技术、法学硕士基础见解、实践项目和法学硕士的未来，并辅以行业领导者关于培训和代理设计的专家演讲。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/short-courses/finetuning-large-language-models/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微调大型语言模型 - DeepLearning.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 Sharon Zhou 一起学习微调大型语言模型 (LLM) 的技术，获得数据准备、训练和更新神经网络权重方面的专业知识，以改进针对您的数据定制的结果。</font></font></li>
+</ul>
+</li>
+<li><a href="https://web.stanford.edu/class/cs25/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS25：变形金刚联合 V3 - 斯坦福大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程深入探讨 Transformers 在深度学习中的变革性作用，特别是它们对 ChatGPT 和 GPT-4 等语言模型进步的影响。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/courses/generative-ai-with-llms/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解现实应用程序的生成式 AI 基础知识 - AWS x DeepLearning.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程与 AWS 合作，提供对生成式 AI 和大型语言模型 (LLM) 的深入见解。参与者将从 AWS AI 专家那里学习 LLM 的机制、优化和实际应用。适合人工智能和机器学习领域的专业人士，完成后可获得 Coursera 证书。推荐基本的Python和机器学习知识。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔬 LLM 理论</font></font></h3><a id="user-content--theory-of-llms" class="anchor" aria-label="永久链接：🔬 法学硕士理论" href="#-theory-of-llms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://stanford-cs324.github.io/winter2023/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS324 - 基础模型的进展 - 斯坦福大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS 324 深入研究 GPT-3 和 DALL-E 等基础模型，涵盖其原理、系统、伦理和应用，并最终形成实践研究项目或应用程序设计。</font></font></li>
+</ul>
+</li>
+<li><a href="https://phontron.com/class/anlp2024/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS11-711 高级自然语言处理 - 卡内基梅隆大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CMU 的高级 NLP 课程探索用于理解和创新自然语言处理的现代神经方法。</font></font></li>
+</ul>
+</li>
+<li><a href="https://self-supervised.cs.jhu.edu/sp2024/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS 601.471/671 NLP：自监督模型 - 约翰霍普金斯大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程深入探索 NLP 的自监督学习技术，培训学生使用 PyTorch 设计和实现神经网络模型，重点关注各种语言模型架构。</font></font></li>
+</ul>
+</li>
+<li><a href="https://cmu-llms.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11-667：大型语言模型方法和应用-卡内基梅隆大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本研究生课程全面概述了大型语言模型 (LLM)，涵盖基础知识、新兴功能、应用程序、扩展技术、部署问题和未来挑战，为学生在人工智能时代的研究和应用做好准备。</font></font></li>
+</ul>
+</li>
+<li><a href="https://web.stanford.edu/class/cs224n/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS224N：深度学习自然语言处理 - 斯坦福大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程全面介绍使用 PyTorch 进行 NLP 深度学习，强调端到端神经模型，消除对特定任务特征工程的需求，并让学生具备制定自己的神经网络解决方案的技能。</font></font></li>
+</ul>
+</li>
+<li><a href="https://hanlab.mit.edu/courses/2023-fall-65940?schedule" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TinyML 和高效深度学习计算 - 麻省理工学院</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程探索在受限设备上进行深度学习的高效 AI 计算技术，涵盖模型压缩、剪枝、量化、架构搜索、分布式训练和量子机器学习，并在笔记本电脑上实际部署 LLaMA 2 等大型模型。</font></font></li>
+</ul>
+</li>
+<li><a href="https://web.stanford.edu/~jurafsky/slp3/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语音和语言处理 - Dan Jurafsky 和 &ZeroWidthSpace;&ZeroWidthSpace;James H. Martin</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1d426c8b086bacc93781024891aeefc009e3f499f8c5cb7668c7bfb668c464ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f6b2d253233393136373263"><img src="https://camo.githubusercontent.com/1d426c8b086bacc93781024891aeefc009e3f499f8c5cb7668c7bfb668c464ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f6b2d253233393136373263" alt="" data-canonical-src="https://img.shields.io/badge/Book-%2391672c" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这部权威文本由该领域的顶尖专家撰写，深入探讨了现代自然语言处理和语音识别的算法和数学模型，并不断更新以反映 NLP 领域的快速进步。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.cs.princeton.edu/courses/archive/fall22/cos597G/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COS 597G（2022 年秋季）：理解大型语言模型 - 普林斯顿大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564"><img src="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564" alt="" data-canonical-src="https://img.shields.io/badge/Level-Hard-red" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对法学硕士变革领域的深入探索，讨论最先进的模型、其深厚的能力和相关挑战，重点是深入研究、道德考虑和实践项目经验，为经验丰富的人士量身定制精通机器学习和深度 NLP 框架的学生。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎨 人工智能绘画</font></font></h2><a id="user-content--ai-painting" class="anchor" aria-label="永久链接：🎨 AI 绘画" href="#-ai-painting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧑&zwj;🎨 艺术基础与AI绘画技巧</font></font></h3><a id="user-content--art-fundamentals-and-ai-painting-techniques" class="anchor" aria-label="永久链接：🧑&zwj;🎨 艺术基础与人工智能绘画技巧" href="#-art-fundamentals-and-ai-painting-techniques"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.niji.academy/work/lecture" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讲座系列：每周一个关于艺术基础的有趣话题 - Niji Academy</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Niji Academy 将艺术基础知识与人工智能相结合，提高绘画技能并加快艺术学习。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌊 稳定扩散原理及应用</font></font></h3><a id="user-content--stable-diffusion-principles-and-applications" class="anchor" aria-label="永久链接：🌊 稳定扩散原理及应用" href="#-stable-diffusion-principles-and-applications"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.deeplearning.ai/short-courses/how-diffusion-models-work/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩散模型如何工作 - DeepLearning.AI</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Sharon Zhou 的中级课程“扩散模型如何工作”中掌握生成人工智能，您将从头开始制作扩散模型，并通过动手编码和实验室丰富内容，非常适合精通 Python、Tensorflow 或 Pytorch 的人。</font></font></li>
+</ul>
+</li>
+<li><a href="https://github.com/huggingface/diffusion-models-class"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拥抱脸部扩散模型课程</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765"><img src="https://camo.githubusercontent.com/e3a429191b79f526d2cee24dde38f346f9ccbc59f94ebbdf2c4df482247f3b71/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f7465626f6f6b2d6f72616e6765" alt="" data-canonical-src="https://img.shields.io/badge/Notebook-orange" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hugging Face 课程深入研究扩散模型，指导参与者使用 Diffusers 库进行媒体生成、实践培训和定制，并对 Python 和深度学习有基本的了解，这对于获得最佳体验至关重要。</font></font></li>
+</ul>
+</li>
+<li><a href="https://course.fast.ai/Lessons/part2.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">程序员实用深度学习第 2 部分：稳定扩散的深度学习基础 - fast.ai</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程深入探索稳定扩散算法，涵盖先进的深度学习技术和使用 PyTorch 的实践项目，使学生掌握尖端扩散模型的专业知识。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔊 人工智能音频</font></font></h2><a id="user-content--ai-audio" class="anchor" aria-label="永久链接：🔊AI 音频" href="#-ai-audio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://huggingface.co/learn/audio-course/chapter0/introduction" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拥抱脸部音频课程</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hugging Face 音频课程教授如何使用 Transformer 执行各种音频任务，从语音识别到从文本生成语音，为熟悉深度学习的学习者提供理论与实践练习相结合的方法。</font></font></li>
+</ul>
+</li>
+<li><a href="http://web.stanford.edu/class/cs224s/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS224S：口语处理 - 斯坦福大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于口语技术的沉浸式课程，涵盖对话系统、语音识别和合成中的深度学习，以及使用 PyTorch、Alexa Skills Kit 和 SpeechBrain 等现代工具的实践项目，最终形成学生驱动的研究或系统设计项目。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌈 多式联运</font></font></h2><a id="user-content--multimodal" class="anchor" aria-label="永久链接：🌈 多式联运" href="#-multimodal"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.sainingxie.com/llvm-fall23/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSCI-GA.3033-102 专题 - 使用大型语言和视觉模型进行学习</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于大型语言和视觉模型的影响的研究生课程，涵盖多模式和生成人工智能，并为学生进行人工智能研究做好准备。</font></font></li>
+</ul>
+</li>
+<li><a href="https://cmu-multicomp-lab.github.io/mmml-tutorial/icml2023/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多模态机器学习教程 (ICML 2023) - 卡内基梅隆大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程深入探讨多模态机器学习，从最新版本的调查论文和卡内基梅隆大学的学术教学中汲取见解，解决其独特的挑战和未来的方向。</font></font></li>
+</ul>
+</li>
+<li><a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2022/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11-777：多模式机器学习（2022 年秋季）- 卡内基梅隆大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程深入研究多模态机器学习 (MMML)，涵盖其数学基础、最先进的概率模型和关键挑战，同时重点介绍多模态转换器和神经符号模型等最新应用和技术。</font></font></li>
+</ul>
+</li>
+<li><a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11-877：多模式机器学习高级主题（2022 年秋季）- 卡内基梅隆大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564"><img src="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564" alt="" data-canonical-src="https://img.shields.io/badge/Level-Hard-red" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程探讨多模态机器学习 (MMML)，涵盖技术挑战和最新成就。它强调批判性思维和未来研究趋势，课程网站上每周更新、讨论探讨和研究亮点。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧠深度学习</font></font></h2><a id="user-content--deep-learning" class="anchor" aria-label="永久链接：🧠深度学习" href="#-deep-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神经网络/深度学习 - StatQuest</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这个非常受欢迎的 YouTube 播放列表中探索神经网络的复杂性，将信息丰富的图形与专家教学无缝地融合在一起，吸引了无数学生从基础知识到使用卷积神经网络进行高级图像分类。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.3blue1brown.com/topics/neural-networks" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神经网络 - 3Blue1Brown</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e"><img src="https://camo.githubusercontent.com/62acaec6799b563b2f3e576ce980b482eb35070bd7bc44b56b16cc4160c264be/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d456173792d677265656e" alt="" data-canonical-src="https://img.shields.io/badge/Level-Easy-green" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3Blue1Brown 通过生动的动画和清晰的解释揭示了神经网络的魔力，深入探讨了手写数字识别、梯度下降的细微差别以及反向传播背后的复杂微积分。</font></font></li>
+</ul>
+</li>
+<li><a href="https://karpathy.ai/zero-to-hero.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神经网络：从零到英雄 - Andrej Karpathy</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Andrej Karpathy 的课程引导学生从基础反向传播到 GPT 等高级神经网络，强调语言模型是掌握深度学习的多功能门户，前提条件是 Python 编程和基础数学。</font></font></li>
+</ul>
+</li>
+<li><a href="https://course.fast.ai/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">程序员实用深度学习 - fast.ai</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Practical Deep Learning for Coders 2022 是一门免费课程，提供使用 PyTorch 和 fastai 等工具在各个领域构建、训练和部署深度学习模型的实践经验，适合具有编码知识且无需高等数学的人员。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/courses/deep-learning-specialization/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度学习专业化 - Andrew Ng</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Andrew Ng 的深度学习专业课程是 Coursera 上评价最高的自定进度课程，拥有超过 100 万学习者，提供清晰的 AI 模块和实用技术，得到庞大社区的支持，并将最新的机器学习分解为易于理解的内容。</font></font></li>
+</ul>
+</li>
+<li><a href="http://introtodeeplearning.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.S191：深度学习简介-麻省理工学院</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院深度学习基础强化训练营，涵盖从计算机视觉到生物学的应用，并提供 TensorFlow 实践和最终的项目竞赛。需要基本的微积分和线性代数知识； Python 经验有益。</font></font></li>
+</ul>
+</li>
+<li><a href="https://web.stanford.edu/class/cs25/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS25：变形金刚 V2 - 斯坦福大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在研讨会上探索 Transformer 在从 NLP 到生物学等不同领域的深度学习中的变革力量，研讨会以专家讲座、突破性讨论和领先研究人员的见解为特色，旨在促进理解和跨协作创新。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deepmind.com/learning-resources/deep-learning-lecture-series-2020" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度学习系列讲座 2020 - DeepMind x 伦敦大学学院</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DeepMind 推出了 12 个深度学习系列讲座，从基础主题到高级技术，涵盖从对象识别到负责任的人工智能创新等领域，所有讲座均由领先的研究专家讲授。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强化学习系列讲座 2021 - DeepMind x 伦敦大学学院</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564"><img src="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564" alt="" data-canonical-src="https://img.shields.io/badge/Level-Hard-red" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DeepMind 和伦敦大学学院 (UCL) 推出了由 13 个内容组成的关于现代强化学习的综合讲座系列，涵盖从基础概念到高级深度强化学习技术，由专家研究人员哈多·范·哈塞尔特 (Hado van Hasselt)、戴安娜·博尔萨 (Diana Borsa) 和 Matteo Hessel 领导。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 人工智能系统</font></font></h2><a id="user-content--ai-system" class="anchor" aria-label="永久链接：💻人工智能系统" href="#-ai-system"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://ucbrise.github.io/cs294-ai-sys-sp22/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AI-Sys-Sp22 机器学习系统 - 加州大学伯克利分校</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过讲座、讨论和协作实践项目，深入研究尖端人工智能应用程序与支持它们的系统之间的共生关系，探索硬件、软件和人工智能驱动的优化技术的进步。</font></font></li>
+</ul>
+</li>
+<li><a href="https://dlsyscourse.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度学习系统：算法与实现 - Tianqi Chen、Zico Kolter</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565"><img src="https://camo.githubusercontent.com/70bf45173db8da9efb5df0f6abcfaf1d46132df8bb7e3eb04c05df06a2e29c4c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566964656f2d626c7565" alt="" data-canonical-src="https://img.shields.io/badge/Video-blue" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过构建完整的库、了解从模型设计到高效算法的每一层、利用 Python 和 C/C++ 来探索深度学习系统的基础。</font></font></li>
+</ul>
+</li>
+<li><a href="https://stanford-cs329s.github.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CS 329S：机器学习系统设计 - 斯坦福大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77"><img src="https://camo.githubusercontent.com/5b0d53c04d607861f4c61f1b8ff12c4821758cd34488066ce01852ba3ca681b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d4d656469756d2d79656c6c6f77" alt="" data-canonical-src="https://img.shields.io/badge/Level-Medium-yellow" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掌握设计强大、可扩展和可部署的机器学习系统的复杂性，关注利益相关者、不断变化的需求和整体系统设计，同时解决隐私、公平和安全等关键问题。</font></font></li>
+</ul>
+</li>
+<li><a href="https://learning-systems.notion.site/learning-systems/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人工智能系统（法学硕士版）294-162 - 加州大学伯克利分校</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564"><img src="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564" alt="" data-canonical-src="https://img.shields.io/badge/Level-Hard-red" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本课程深入探讨硬件/软件进步和生成式人工智能的关系，强调这些创新如何推动人工智能模型的扩展和功能。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.cs.cmu.edu/~zhihaoj2/15-849/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">15-849：机器学习系统-卡内基梅隆大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564"><img src="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564" alt="" data-canonical-src="https://img.shields.io/badge/Level-Hard-red" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深入研究现代机器学习系统的架构，揭示从高级模型设计到异构硬件上低级内核执行的过程，同时揭示下一代机器学习应用程序和平台的原理和挑战。</font></font></li>
+</ul>
+</li>
+<li><a href="https://www.cs.princeton.edu/courses/archive/spring21/cos598D/general.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算机科学 598D - 系统和机器学习 - 普林斯顿大学</font></font></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564"><img src="https://camo.githubusercontent.com/d74c8458b62831b89866ed9fb73270f1518144b1dc3cb6777453b64883ce1e8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6576656c2d486172642d726564" alt="" data-canonical-src="https://img.shields.io/badge/Level-Hard-red" style="max-width: 100%;"></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过剖析有关高效 ML 硬件/软件的最新研究并将 ML 应用到系统设计中，探索系统和机器学习之间的协同作用，最终为研究生提供实践项目和深入讨论。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🗂 杂项</font></font></h2><a id="user-content--miscellaneous" class="anchor" aria-label="永久链接：🗂 杂项" href="#-miscellaneous"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✨ 明星历史</font></font></h3><a id="user-content--star-history" class="anchor" aria-label="永久链接：✨ 明星历史" href="#-star-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://star-history.com/#luban-agi/Awesome-AIGC-Tutorials&amp;Date" rel="nofollow"><img src="https://camo.githubusercontent.com/ffb6210155447681407be655ec756a302da5484b9f0c79410d4270e994383b7c/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6c7562616e2d6167692f417765736f6d652d414947432d5475746f7269616c7326747970653d44617465" alt="明星历史图" data-canonical-src="https://api.star-history.com/svg?repos=luban-agi/Awesome-AIGC-Tutorials&amp;type=Date" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤝 友情链接</font></font></h3><a id="user-content--friendship-links" class="anchor" aria-label="永久链接：🤝 友情链接" href="#-friendship-links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="http://waytoagi.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通用人工智能之路</font></font></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WaytoAGI.com 是 AIGC 最全面的中文资源中心，引导用户进行优化的学习之旅，以了解和利用人工智能的力量。</font></font></li>
+</ul>
+</li>
+<li><a href="https://github.com/codefuse-ai/codefuse-chatbot"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Codefuse-ChatBot</font></font></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Codefuse-ChatBot 是一款开源 AI 智能助手，旨在通过对话式访问工具、知识和平台集成来支持软件开发生命周期。</font></font></li>
+</ul>
+</li>
+<li><a href="https://github.com/codefuse-ai/codefuse-devops-eval"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Codefuse DevOps 评估</font></font></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DevOps-Eval 是一个 GitHub 存储库，提供专门的套件，用于评估和改进 DevOps 领域的基础模型，包括一组丰富的 AIOps 练习。</font></font></li>
+</ul>
+</li>
+</ul>
+</article></div>
